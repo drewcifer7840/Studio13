@@ -1,0 +1,83 @@
+/* BS 4 alpha 2 grid Break Points — xs(default) up to 34em (496px) || sm up to 48em (720px) || md up to 62em (945px) — 1em approx 15px */
+/* Main Banner Custom Break Points for Background Image */
+	@media screen and (min-width: 401px) {
+		#hero {
+			background-image: url('../img/slider/bg800x768.jpg');
+		}
+	}
+	@media screen and (min-width: 801px) {
+		#hero {
+			background-image: url('../img/slider/bg1024x768.jpg');
+		}
+	}
+	@media screen and (min-width: 1025px) {
+		#hero {
+			background-image: url('../img/slider/bg1129x600.jpg');
+		}
+	}
+	/* Custom Break Point for guitar background image*/
+	@media (min-width:1150px) {
+		.guitar {
+			display:block;
+			background-image: url('../img/jaguar275x485.png');
+			width: 275px;
+			height: 485px;
+			margin-top:-95px;
+			background-repeat: no-repeat;
+		}
+	}
+	
+	/* Custom Break Point for centered nav logo*/
+	@media screen and (min-width: 801px) {
+	nav li img {
+	width:120px; margin-top:-25px;
+	}
+}
+	
+	/*Built in Bootstrap Breakpoints */
+	@media screen and (min-width: 34em) { /* Small up (around 496px) */
+		section {
+			padding: 100px 0;
+		}
+		
+		.even-control-left, .even-control-right {
+			position: absolute;
+		}
+
+		.even-control-left {
+			right: 10%;
+		}
+
+		.even-control-right {
+			right: 5%;
+		}
+		
+		#event-carousel img {
+		margin: 20px 0;
+		}
+		
+		#event-carousel {
+		text-align: left;
+	}
+	
+	@media screen and (min-width: 48em) { /* Medium up (around 720px) */
+	
+	}
+	
+	@media screen and (min-width: 62em) { /* Large up (around 945px) */
+		#flexx {
+			background-position: 500px -30px;
+		}
+		.flex-guitar {
+			display:block;
+			background-image: url('../img/guitar2.jpg');
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: -30px 20px;
+			width:568px;
+			height:393px;
+		}
+		.flex-content {
+			width:50%;
+		}
+	}

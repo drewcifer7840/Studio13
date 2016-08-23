@@ -1,0 +1,235 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+	/* Custom Styles -- Mobile First*/
+	body {
+		font-family: 'Dosis',Arial,sans-serif; 'Montserrat','Helvetica Neue',sans-serif;
+		color: #001A33;
+		webkit-tap-highlight-color: #222;
+		top: 0;
+	}
+	p {
+		font-family: inherit;
+		font-size: 20px;
+	}
+	
+	/* Structural styling of Sections and Main Divs */
+	section {
+		padding: 70px 0;
+		min-height:100vh;
+	}
+	
+	#hero {
+		padding-top:100px;
+		height: 100vh;
+		background-image: url('../img/slider/bg400x768.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: white;
+	}
+	
+	#flexx {
+		background-color: #75B46E; 
+		background-image: url("../img/about-bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 0;
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	  
+	#event {
+		background-color: #3F8A8F;
+		background-image: url("../img/team-bg.jpg");
+		background-position: 50% 50%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	
+	section#map-wrap {
+		padding: 0 15px;
+	}
+	
+	#reviews {
+		background-color: #ecedef;
+		background-image: url("../img/reviews-bg.jpg");
+		background-position: center bottom;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+    }
+	
+	#contact {
+		background-image: url("../img/contact-bg.jpg");
+		background-position: 60% 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	#footer {
+		background-color: #212121;
+		background-image: url("../img/footer-bg.jpg");
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #FFFFFF;
+		font-size: 20px;
+		padding: 35px 0;
+	}
+	/* End Sections */
+	.morphext > .animated {
+		display: inline-block;
+	}
+
+	nav ul {
+		width:550px;
+		margin:0 auto;
+	}
+	
+	.nav li img {
+		width:75px;
+		margin-top:-10px;
+	}
+	
+	ul.nav a.nav-link {
+		font-size: 16px;
+	}
+	
+	.text-center {
+		text-align: center;
+	}
+	
+	mobile-header {
+		text-align: center;
+	}
+
+	.card {
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.card, .card-header {
+		background-color:rgba(255,255,255, 0.7);
+	}
+
+	p.card-text {
+		line-height: 1.2;
+	}
+	
+	.flex-content {
+		width:100%;
+		overflow:hidden;
+		padding:10px;
+	}
+	
+	.flex-content h2 {
+		text-align: center;
+	}
+	
+	.flex-content .btn.btn-primary {
+		position:relative;
+		left:50%;
+		transform: translateX(-50%);
+		border: 1px solid rgb(0, 26, 51);
+		color: inherit;
+	}
+	
+	.flex-content .btn.btn-primary:hover {
+		border: 1px solid#28987C;
+		background-color: white;
+		color: inherit;
+	}
+	
+	#map {
+	  position: relative;
+	}
+	
+	#gmap {
+		height:100vh;
+	}
+	.flex-guitar {
+		display:none;
+	}
+	.guitar {
+		display:none;
+	}
+	
+	.even-control-left, .even-control-right {
+		position: initial;
+		font-size: 24px;
+		color: white;
+		top: 0;
+		margin-right: 20px;
+	}
+		
+	.carousel {
+	padding: 0 30px;
+	}
+	
+	#event-carousel {
+		color: white;
+	}
+	
+	#event-carousel img{
+		margin: 20px 0;
+	}
+	
+	#reviews .carousel-item p:first-of-type {
+	text-align: left;
+	}
+
+	#reviews-feed .carousel-item p {
+		font-family: inherit;
+		font-size: 20px;
+	}
+
+	#reviews-feed .carousel-item img {
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		border-radius: 50%;
+		background-color: #c5c8ce;
+		padding: 5px;
+		margin-bottom: 30px;
+	}
+	
+	form .btn.btn-primary {
+		background-color: transparent;
+		border: 1px solid rgb(0, 26, 51);
+		-webkit-transition: all .35s;
+		-moz-transition: all .35s;
+		transition: all .35s;
+		color: rgb(0, 26, 51);
+	}
+	
+	form .btn.btn-primary:hover {
+		background-color: white;
+	}
+	
+	form .ear-piece {
+		position: absolute;
+		left: 50%;
+		top: 245px;
+		margin-left: -100px;
+	}
+
+	#footer a {
+		color: #f7ab24;
+	}
+	#event-carousel {
+		text-align: center;
+	}
+	
+	#event-carousel img {
+		margin: 0 auto;
+	}
+	
+	
+	
+	
+	
+	
+	
